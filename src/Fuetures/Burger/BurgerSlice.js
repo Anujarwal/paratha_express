@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import exportburger from "./BurgerServer";
+import axios from "axios";
 
 const burgerSlice = createSlice({
   name: "Burger",
@@ -39,7 +39,8 @@ export default burgerSlice.reducer
 
 export const burgerGet = createAsyncThunk("GET/BURDER", async () => {
     try {
-      return await exportburger.getBurger();
+      const response = await axios.get("https://paratha-api.onrender.com/api/burger")
+      return response.data
     } catch (error) {
       console.log(error);
     }
