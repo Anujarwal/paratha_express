@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.about{
+    
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav{
+    width: 100%;
+    height: auto;
+    position: static;
+    top: 0;
+}
+
+.about-image img{
+    width: 80%;
+}
+
+.bike-image{
+    margin-inline: 60px;
+}
+
+.img:hover {
+    filter: grayscale(50%);
+  }
+  
+  .img {
+    border-radius: 25% 10% 10% 0;
+  }
+  .cartitems {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    
+  }
+  
+  .carts-1:hover{
+    transition: all ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 13px rgb(111, 110, 110);
+  
+  }
+  .carts-2:hover{
+    transition: all ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 13px rgb(111, 110, 110);
+  
+  }
+  .carts-3:hover{
+    transition: all ease-in-out;
+    transform: scale(1.10);
+    box-shadow: 10px 10px 13px rgb(111, 110, 110);
+  
+  }
+  .carts-1 {
+    border-radius: 30px;
+    /* / border: 1px solid rgb(178, 178, 178); / */
+    box-shadow: 3px 5px 8px rgb(111, 110, 110);
+  }
+  .carts-2 {
+    border-radius: 30px;
+    /* / border: 1px solid rgb(178, 178, 178); / */
+    box-shadow: 3px 5px 8px rgb(111, 110, 110);
+  }
+  .carts-3 {
+    border-radius: 30px;
+    /* / border: 1px solid rgb(178, 178, 178); / */
+    box-shadow: 3px 5px 8px rgb(111, 110, 110);
+  }
+  .cart-item-img {
+    border-radius: 40px;
+  }
+
+
+  .btns .btn.circle {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+  }
+  /* / line 174, ../sass/test.scss / */
+  .btns .btn.circle.border {
+    border: 2px solid transparent;
+    -webkit-transition: border-top-color 0.15s linear 0s, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+    -moz-transition: border-top-color 0.15s linear 0s, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+    -ms-transition: border-top-color 0.15s linear 0s, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+    -o-transition: border-top-color 0.15s linear 0s, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+    transition: border-top-color 0.15s linear 0s, border-right-color 0.15s linear 0.1s, border-bottom-color 0.15s linear 0.2s;
+  }
+  /* / line 177, ../sass/test.scss / */
+  .btns .btn.circle.border:hover {
+    border-color: #0392cf;
+  }
+  
+  
+  .card-item-price:hover{
+    color: orange;
+  
+  }
+
+  .card-text{
+    width: 190px;
+  }
+
+  .card-burger{
+    width: 300px;
+    height: 350px;
+  }
+
