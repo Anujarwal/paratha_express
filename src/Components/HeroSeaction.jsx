@@ -30,7 +30,7 @@ const HeroSeaction = () => {
         <hr />
       </Typography>
       <div className="grid grid-cols-1 sm:grid-cols-3  md:grid-cols-4 gap-20 mt-10 justify-around items-center">
-        {paratha.map((para) => (
+        {paratha?.map((para) => (
           <CardItem key={para.id} para={para} />
         ))}
       </div>

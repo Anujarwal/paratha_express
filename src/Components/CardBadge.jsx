@@ -93,7 +93,7 @@ const CardBadge = () => {
         </Typography>
         <Grid container spacing={8} sx={{ padding: "0px 30px" }}>
           <Grid item xs={12} sm={6} md={8} lg={8}>
-            {cardsItem.map((card) => (
+            {cardsItem?.map((card) => (
               <Card sx={{ maxWidth: 345, marginBottom: 2 }}>
                 <CardMedia
                   sx={{ height: 140 }}

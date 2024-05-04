@@ -46,7 +46,7 @@ const Menu = () => {
         <LocalDiningIcon sx={{ fontSize: 40, color: "orange" }} /> Paratha{" "}
       </Typography>
       <div className="grid grid-cols-2 sm:grid-cols-2  md:grid-cols-4 gap-20 mt-10 justify-around items-center">
-        {paratha.map((para) => (
+        {paratha?.map((para) => (
           <Paratha key={para.id} para={para} />
         ))}
       </div>
@@ -55,7 +55,7 @@ const Menu = () => {
         <LunchDiningIcon sx={{ fontSize: 40, color: "orange" }} /> Burger{" "}
       </Typography>
       <div className="grid grid-cols-2 sm:grid-cols-2  md:grid-cols-4 gap-20 mt-10 justify-around items-center">
-        {burger.map((bur) => (
+        {burger?.map((bur) => (
           <Burger key={bur.id} bur={bur} />
         ))}
       </div>
@@ -64,7 +64,7 @@ const Menu = () => {
         <LocalPizzaIcon sx={{ fontSize: 40, color: "orange" }} /> Pizza{" "}
       </Typography>
       <div className="grid grid-cols-2 sm:grid-cols-2  md:grid-cols-4 gap-20 mt-10 justify-around items-center">
-        {pizza.map((piz) => (
+        {pizza?.map((piz) => (
           <Pizza key={piz.id} piz={piz} />
         ))}
       </div>
@@ -73,7 +73,7 @@ const Menu = () => {
         <FastfoodSharpIcon sx={{ fontSize: 40, color: "orange" }} /> Drinks{" "}
       </Typography>
       <div className="grid grid-cols-2 sm:grid-cols-2  md:grid-cols-4 gap-20 mt-10 justify-around items-center">
-        {drink.map((drin) => (
+        {drink?.map((drin) => (
           <Drinks key={drin.id} drin={drin} />
         ))}
       </div>
