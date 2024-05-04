@@ -97,19 +97,19 @@ const CardBadge = () => {
               <Card sx={{ maxWidth: 345, marginBottom: 2 }}>
                 <CardMedia
                   sx={{ height: 140 }}
-                  image={card.img}
+                  image={card?.img}
                   title="green iguana"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
-                    Name : {card.name}
+                    Name : {card?.name}
                   </Typography>
-                  <Typography variant="h5">Price : ₹{card.price}</Typography>
+                  <Typography variant="h5">Price : ₹{card?.price}</Typography>
                   <Typography marginLeft={"100px"}>
                     <Button onClick={() => handleDecrement(card)}>
                       <RemoveIcon />
                     </Button>
-                    {card.qty}
+                    {card?.qty}
                     <Button onClick={() => handleincreament(card)}>
                       <AddIcon />
                     </Button>

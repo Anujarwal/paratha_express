@@ -37,7 +37,7 @@ const CardItem = ({ para }) => {
     <>
       <div className="flex place-content-around">
         <div className="carts-1 px-5 pb-5 flex flex-col items-center justify-center">
-          <img className="cart-item-img pt-5" src={para.img} />
+          <img className="cart-item-img pt-5" src={para?.img} />
           <div className="px-5 pb-5">
             <div className="mt-4 flex items-center justify-center ">
               <Stack spacing={1}>
@@ -46,12 +46,12 @@ const CardItem = ({ para }) => {
             </div>
             <a href="#">
               <h5 className="text-xl card-text text-center font-semibold tracking-tight dark:text-white text-orange-600 mt-3">
-                {para.name}
+                {para?.name}
               </h5>
             </a>
             <div className="flex items-center justify-around mt-5">
               <span className="text-2xl font-bold text-gray-900 dark:text-white card-item-price">
-                ${para.price}
+                ${para?.price}
               </span>
 
               <div className="btns">
