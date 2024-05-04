@@ -14,16 +14,13 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import AddShoppingCartRoundedIcon from "@mui/icons-material/AddShoppingCartRounded";
-import image1 from "../assets/istockphoto-1457979959-170667a.webp";
 import { useDispatch, useSelector } from "react-redux";
-import { addparathas } from "../Fuetures/Paratha/parathaSlice";
 import { add } from "../Fuetures/AddToCart/CardSlice";
 
 const CardItem = ({ para }) => {
-  const { parathas, isLoading } = useSelector((state) => state.paratha);
-  const [value, setValue] = React.useState(5);
+  const { isLoading } = useSelector((state) => state.paratha);
+  // const [value, setValue] = React.useState(5);
 
   const dispatch = useDispatch();
 
@@ -31,9 +28,7 @@ const CardItem = ({ para }) => {
     dispatch(add(card));
   };
 
-  if (isLoading) {
-    <h1>Loading....</h1>;
-  }
+  
 
   // home page menu item parathaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 

@@ -1,16 +1,25 @@
-import { Typography } from "@mui/material";
+import { CircularProgress, Typography } from "@mui/material";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import CardItem from "./CardItem";
+import LinearProgress from "@mui/material/LinearProgress";
 import { parathaGet } from "../Fuetures/Paratha/parathaSlice";
 
 const HeroSeaction = () => {
-    const {paratha} = useSelector((state) => state.paratha)
-    const dispatch = useDispatch()
+  const { paratha, isLoading } = useSelector((state) => state.paratha);
+  const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(parathaGet())
-    })
+  useEffect(() => {
+    dispatch(parathaGet());
+  }, []);
+
+  if (isLoading) {
+    return (
+      <Typography variant="h3" sx={{ textAlign: "center", mt: 5 }}>
+        <CircularProgress color="inherit" />
+      </Typography>
+    );
+  }
 
   return (
     <>
@@ -21,9 +30,9 @@ const HeroSeaction = () => {
         <hr />
       </Typography>
       <div className="grid grid-cols-1 sm:grid-cols-3  md:grid-cols-4 gap-20 mt-10 justify-around items-center">
-        {
-            paratha.map((para) => <CardItem key={para.id} para={para}  />)
-        }
+        {paratha.map((para) => (
+          <CardItem key={para.id} para={para} />
+        ))}
       </div>
     </>
   );

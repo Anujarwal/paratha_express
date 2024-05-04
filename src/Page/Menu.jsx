@@ -1,4 +1,4 @@
-import { Button, Rating, Stack, Typography } from "@mui/material";
+import { Button, LinearProgress, Rating, Stack, Typography } from "@mui/material";
 // import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import AddShoppingCartRoundedIcon from "@mui/icons-material/AddShoppingCartRounded";
 import React, { useEffect } from "react";
@@ -21,7 +21,7 @@ const Menu = () => {
   const { drink } = useSelector((state) => state.drink);
   const { pizza } = useSelector((state) => state.pizza);
   const { burger } = useSelector((state) => state.burger);
-  const { paratha } = useSelector((state) => state.paratha);
+  const { paratha , isLoading } = useSelector((state) => state.paratha);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -30,6 +30,14 @@ const Menu = () => {
     dispatch(parathaGet());
     dispatch(burgerGet());
   }, [0]);
+
+  if (isLoading) {
+    return (
+      <Typography variant="h3" sx={{ textAlign: "center", mt: 5 }}>
+        <LinearProgress color="inherit" />
+      </Typography>
+    );
+  }
 
   return (
     <>
