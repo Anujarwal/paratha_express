@@ -109,7 +109,6 @@ const Blog = () => {
             <div className="cursor-pointer rounded overflow-hidden group">
               <video
                 src="https://v.ftcdn.net/07/49/28/46/700_F_749284628_v85iZnb5GmcefbDjSRIzIfwTvJJqJzHW_ST.mp4"
-                loop
                 autoPlay
                 muted
                 alt="Blog Post 1"
@@ -117,7 +116,7 @@ const Blog = () => {
               />
               <div className="py-6">
                 <span className="text-sm block text-gray-400 mb-2">
-                  10 FEB 2023 | BY JOHN DOE
+                  10 FEB 2024 | BY JOHN DOE
                 </span>
                 <h3 className="text-xl font-bold text-[#333] group-hover:text-blue-500 transition-all">
                   a plate of roti canai, a typical Indian food By Bejo
@@ -128,14 +127,13 @@ const Blog = () => {
               <video
                 src="https://v.ftcdn.net/04/33/77/59/700_F_433775946_2cZXAXrJVhS7UiOZYoknwrIWLGNFuFCn_ST.mp4"
                 alt="Blog Post 2"
-                loop
                 autoPlay
                 muted
                 className="w-full h-52 object-cover"
               />
               <div className="py-6">
                 <span className="text-sm block text-gray-400 mb-2">
-                  7 JUN 2023 | BY MARK ADAIR
+                  15 FEB 2024 | BY MARK ADAIR
                 </span>
                 <h3 className="text-xl font-bold text-[#333] group-hover:text-blue-500 transition-all">
                   Super Slow Motion Shot of Falling and Stacking Parts of
@@ -147,14 +145,13 @@ const Blog = () => {
               <video
                 src="https://v.ftcdn.net/01/27/81/03/700_F_127810307_Y78PwmfMrhAwGcbCkRJmGGVYMLD7dJl2_ST.mp4"
                 alt="Blog Post 3"
-                loop
                 autoPlay
                 muted
                 className="w-full h-52 object-cover"
               />
               <div className="py-6">
                 <span className="text-sm block text-gray-400 mb-2">
-                  5 OCT 2023 | BY SIMON KONECKI
+                  20 FEB 2024 | BY SIMON KONECKI
                 </span>
                 <h3 className="text-xl font-bold text-[#333] group-hover:text-blue-500 transition-all">
                   Disappearing pizza Hands taking all the pieces Stop motion
@@ -166,14 +163,13 @@ const Blog = () => {
               <video
                 src="https://v.ftcdn.net/06/09/99/85/700_F_609998554_7qgkKK1Qx9tmY5GmKXSGjF9Mj7q6CEXy_ST.mp4"
                 alt="Blog Post 3"
-                loop
                 autoPlay
                 muted
                 className="w-full h-52 object-cover"
               />
               <div className="py-6">
                 <span className="text-sm block text-gray-400 mb-2">
-                  10 DEC 2023 | BY SIMON KONECKI
+                  25 FEB 2024 | BY SIMON KONECKI
                 </span>
                 <h3 className="text-xl font-bold text-[#333] group-hover:text-blue-500 transition-all">
                   Super slow motion of preparing cocktails with speed motion.
