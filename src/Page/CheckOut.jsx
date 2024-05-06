@@ -111,7 +111,8 @@ const CheckOut = () => {
             <h3 className="text-xl font-bold text-[#333]">Summary</h3>
             <ul className="text-[#333] mt-6 space-y-4">
               <li className="flex flex-wrap gap-4 text-sm">
-                Delevery Changes : <span className="ml-auto font-bold">{delevery}</span>
+                Delevery Changes :{" "}
+                <span className="ml-auto font-bold">{delevery}</span>
               </li>
               <li className="flex flex-wrap gap-4 text-sm">
                 Tax : <span className="ml-auto font-bold">{tax}</span>

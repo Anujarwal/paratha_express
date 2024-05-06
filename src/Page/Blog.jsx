@@ -107,8 +107,11 @@ const Blog = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:col-span-2">
             <div className="cursor-pointer rounded overflow-hidden group">
-              <img
-                src="https://readymadeui.com/Imagination.webp"
+              <video
+                src="https://v.ftcdn.net/07/49/28/46/700_F_749284628_v85iZnb5GmcefbDjSRIzIfwTvJJqJzHW_ST.mp4"
+                loop
+                autoPlay
+                muted
                 alt="Blog Post 1"
                 className="w-full h-52 object-cover"
               />
@@ -117,14 +120,17 @@ const Blog = () => {
                   10 FEB 2023 | BY JOHN DOE
                 </span>
                 <h3 className="text-xl font-bold text-[#333] group-hover:text-blue-500 transition-all">
-                  A Guide to Igniting Your Imagination
+                  a plate of roti canai, a typical Indian food By Bejo
                 </h3>
               </div>
             </div>
             <div className="cursor-pointer rounded overflow-hidden group">
-              <img
-                src="https://readymadeui.com/hacks-watch.webp"
+              <video
+                src="https://v.ftcdn.net/04/33/77/59/700_F_433775946_2cZXAXrJVhS7UiOZYoknwrIWLGNFuFCn_ST.mp4"
                 alt="Blog Post 2"
+                loop
+                autoPlay
+                muted
                 className="w-full h-52 object-cover"
               />
               <div className="py-6">
@@ -132,14 +138,18 @@ const Blog = () => {
                   7 JUN 2023 | BY MARK ADAIR
                 </span>
                 <h3 className="text-xl font-bold text-[#333] group-hover:text-blue-500 transition-all">
-                  Hacks to Supercharge Your Day
+                  Super Slow Motion Shot of Falling and Stacking Parts of
+                  Hamburger at 1000fps.
                 </h3>
               </div>
             </div>
             <div className="cursor-pointer rounded overflow-hidden group">
-              <img
-                src="https://readymadeui.com/prediction.webp"
+              <video
+                src="https://v.ftcdn.net/01/27/81/03/700_F_127810307_Y78PwmfMrhAwGcbCkRJmGGVYMLD7dJl2_ST.mp4"
                 alt="Blog Post 3"
+                loop
+                autoPlay
+                muted
                 className="w-full h-52 object-cover"
               />
               <div className="py-6">
@@ -147,14 +157,18 @@ const Blog = () => {
                   5 OCT 2023 | BY SIMON KONECKI
                 </span>
                 <h3 className="text-xl font-bold text-[#333] group-hover:text-blue-500 transition-all">
-                  Trends and Predictions
+                  Disappearing pizza Hands taking all the pieces Stop motion
+                  animation
                 </h3>
               </div>
             </div>
             <div className="cursor-pointer rounded overflow-hidden group">
-              <img
-                src="https://readymadeui.com/team-image.webp"
+              <video
+                src="https://v.ftcdn.net/06/09/99/85/700_F_609998554_7qgkKK1Qx9tmY5GmKXSGjF9Mj7q6CEXy_ST.mp4"
                 alt="Blog Post 3"
+                loop
+                autoPlay
+                muted
                 className="w-full h-52 object-cover"
               />
               <div className="py-6">
@@ -162,7 +176,10 @@ const Blog = () => {
                   10 DEC 2023 | BY SIMON KONECKI
                 </span>
                 <h3 className="text-xl font-bold text-[#333] group-hover:text-blue-500 transition-all">
-                  Innovators Changing the Game
+                  Super slow motion of preparing cocktails with speed motion.
+                  Filmed on high speed cinema camera, 1000 fps, placed on high
+                  speed cine bot. Bar with bottles on background. Speed ramp
+                  effect
                 </h3>
               </div>
             </div>

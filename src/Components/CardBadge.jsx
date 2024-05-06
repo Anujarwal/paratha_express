@@ -105,7 +105,7 @@ const CardBadge = () => {
                     Name : {card?.name}
                   </Typography>
                   <Typography variant="h5">Price : ₹{card?.price}</Typography>
-                  <Typography marginLeft={"100px"}>
+                  <Typography sx={{display : "flex" , alignItems : "center" , justifyContent : "center"}} >
                     <Button onClick={() => handleDecrement(card)}>
                       <RemoveIcon />
                     </Button>

@@ -24,21 +24,39 @@ const AddToCard = ({ card }) => {
               <p className="card-text">
                 <h5 className="text-body-secondary">Price : {card.price}</h5>
               </p>
-              <Typography>
-                <Button>
-                  <RemoveIcon />
-                </Button>
-                5
-                <Button>
-                  <AddIcon />
-                </Button>
+
+              {/* <div className="d-flex">
+                <div className="d-flex">
+                  <Typography>
+                    <Button>
+                      <RemoveIcon />
+                    </Button>
+                  </Typography>
+                  <Typography>
+                    <Button>
+                      <AddIcon />
+                    </Button>
+                  </Typography>
+                </div>
+              </div> */}
+
+              {/* <div className="">
+                <Typography>
+                  <Button>
+                    <RemoveIcon />
+                  </Button>
+                  5
+                  <Button>
+                    <AddIcon />
+                  </Button>
+                </Typography>
                 <Button>
                   <DeleteOutlineIcon
                     onClick={() => handleRemove(card.id)}
                     color="error"
                   />
                 </Button>
-              </Typography>
+              </div> */}
               <span className="float-end"></span>
             </div>
           </div>
