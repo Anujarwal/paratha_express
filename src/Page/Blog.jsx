@@ -110,6 +110,7 @@ const Blog = () => {
               <video
                 src="https://v.ftcdn.net/07/49/28/46/700_F_749284628_v85iZnb5GmcefbDjSRIzIfwTvJJqJzHW_ST.mp4"
                 autoPlay
+                loop
                 muted
                 alt="Blog Post 1"
                 className="w-full h-52 object-cover"
@@ -127,6 +128,7 @@ const Blog = () => {
               <video
                 src="https://v.ftcdn.net/04/33/77/59/700_F_433775946_2cZXAXrJVhS7UiOZYoknwrIWLGNFuFCn_ST.mp4"
                 alt="Blog Post 2"
+                loop
                 autoPlay
                 muted
                 className="w-full h-52 object-cover"
@@ -145,6 +147,7 @@ const Blog = () => {
               <video
                 src="https://v.ftcdn.net/01/27/81/03/700_F_127810307_Y78PwmfMrhAwGcbCkRJmGGVYMLD7dJl2_ST.mp4"
                 alt="Blog Post 3"
+                loop
                 autoPlay
                 muted
                 className="w-full h-52 object-cover"
@@ -163,6 +166,7 @@ const Blog = () => {
               <video
                 src="https://v.ftcdn.net/06/09/99/85/700_F_609998554_7qgkKK1Qx9tmY5GmKXSGjF9Mj7q6CEXy_ST.mp4"
                 alt="Blog Post 3"
+                loop
                 autoPlay
                 muted
                 className="w-full h-52 object-cover"
