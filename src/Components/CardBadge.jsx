@@ -104,7 +104,8 @@ const CardBadge = () => {
                       {card.name}
                     </h3>
                     <ul class="mt-4 text-sm text-[#333] space-y-2">
-                      <li>{card.category}</li>
+                      <li>{card.description}</li>
+                      <li style={{fontWeight:"bold"}} >Price : ₹{card?.price*card?.qty}</li>
                      
                     </ul>
                     <hr class="my-6" />
@@ -151,7 +152,6 @@ const CardBadge = () => {
                         </button>
                       </div>
                       <div class="flex items-center">
-                        <h4 class="text-lg font-bold text-[#333]">Price : ₹{card?.price*card?.qty}</h4>
                         <svg
                          onClick={() => handleDelete(card.id)}
                           xmlns="http://www.w3.org/2000/svg"
